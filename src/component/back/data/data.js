@@ -1,0 +1,35 @@
+const data ={
+    productItem:[
+        {
+            id:"1",
+            name:"hello",
+            price:144,
+            image:"./pics/helloo.png"
+        },
+        {
+            id:"2",
+            name:"bonjour",
+            price:143,
+            image:"./pics/helloo.png"
+        },
+        {
+            id:"3",
+            name:"ola",
+            price:142,
+            image:"./pics/ola.png"
+        },
+        {
+            id:"4",
+            name:"nameste",
+            price:141,
+            image:"./pics/nameste.png"
+        },
+        {
+            id:"5",
+            name:"vanakam",
+            price:140,
+            image:"./pics/vanakama.png"
+        },
+    ]
+}
+export default data;
