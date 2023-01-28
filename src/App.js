@@ -7,7 +7,7 @@ import Routs from './component/front/routs/routs';
 const App = () => {
   const { productItem } = data;
   const [cartItem,setCartItem] = useState([]);
-  const heandleAddProduct=(product)=>{
+  const handleAddProduct=(product)=>{
     const ProductExist=cartItem.find((item) => item.id===product.id);
     if(ProductExist){
       setCartItem(cartItem.map((item)=>item.id===product.id?
@@ -34,7 +34,7 @@ const App = () => {
         );
     }
   }
-  const heandleCartClearence=()=>{
+  const handleCartClearence=()=>{
     setCartItem([]);
   }
 
@@ -45,9 +45,9 @@ const App = () => {
         
         <Routs productItem={productItem} 
         cartItem={cartItem} 
-        heandleAddProduct={heandleAddProduct}
+        handleAddProduct={handleAddProduct}
         handleRemoveProduct={handleRemoveProduct} 
-        heandleCartClearence={heandleCartClearence}/>
+        handleCartClearence={handleCartClearence}/>
       
       </Router>
     </div>

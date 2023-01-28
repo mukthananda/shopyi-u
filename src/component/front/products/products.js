@@ -1,7 +1,7 @@
 import React from 'react'
 import "./products.css"
 
-const products = ({productItem,heandleAddProduct}) => {
+const products = ({productItem,handleAddProduct}) => {
   return (
     <div className='products'>
         {productItem.map((productItem)=>(
@@ -20,7 +20,7 @@ const products = ({productItem,heandleAddProduct}) => {
                 </div>
                 <div>
                   <button className='product-add-button'
-                   onClick={()=>heandleAddProduct(productItem)}> Add to cart </button>
+                   onClick={()=> handleAddProduct(productItem)}> Add to cart </button>
                 </div>
             </div>
         )
