@@ -4,31 +4,31 @@ const data ={
             id:"1",
             name:"Angel",
             price:900,
-            image:"./pics/oil.jpg"
+            image:"https://m.media-amazon.com/images/I/81y0SgwvXeL._SX679_.jpg"
         },
         {
             id:"2",
-            name:"girl with umbrilla",
+            name:"Cycle with flowers",
             price:850,
-            image:"./pics/rain.jpg"
+            image:"https://m.media-amazon.com/images/I/51wp3KYNH+L._SY300_SX300_.jpg"
         },
         {
             id:"3",
-            name:"togther",
+            name:"Vintage street wall ",
             price:800,
-            image:"./pics/tog.jpg"
+            image:"https://m.media-amazon.com/images/I/81bYHawWlTS._SX679_.jpg"
         },
         {
             id:"4",
-            name:"Girl with violin",
+            name:"Half moon angel",
             price:880,
-            image:"./pics/blue.jpg"
+            image:"https://m.media-amazon.com/images/I/71WFHekTaIL._SX679_.jpg"
         },
         {
             id:"5",
-            name:"cyan dress girl",
+            name:"dreamer boy",
             price:950,
-            image:"./pics/green.jpg"
+            image:"https://m.media-amazon.com/images/I/71ZB+6BS7UL._SX679_.jpg"
         },
     ]
 }
