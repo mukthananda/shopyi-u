@@ -8,7 +8,7 @@ const header = ( cartItem) => {
     <div>
         <h1>
             <Link to ="/" className='logo'>
-                elctronics shop
+                Art Galley
                 </Link>        
             </h1>
     </div>
@@ -20,13 +20,13 @@ const header = ( cartItem) => {
         </ul>
         <ul>
             <li>
-                <Link to="/signup">signup</Link>
+                <Link to="/signup">Signup</Link>
             </li>
         </ul>
         <ul>
             <li>
-                <Link to="/cart" className="cart"/>
-                <i class="fas fa-shopping-cart"/>
+                <Link to="/cart" className="fas fa-shopping-cart"/>
+               
                 <span className='cart-length'>
                     {cartItem.length === 0? "": cartItem.length}
                 </span>

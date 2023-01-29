@@ -4,12 +4,12 @@ width: 80%;
 display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
-background-color: orange;
+background-color: rgb(151, 225, 224);
 border-radius: 5px;
 }
 .card{
     width: 300px;
-    height: 400px;
+    height: 550px;
     border: 1px solid black;
     border-radius: 5px;
     overflow: hidden;
@@ -53,7 +53,7 @@ border-radius: 5px;
 
 }
 .product-add-button:hover{
-    background-color: red;
+    background-color: rgb(130, 137, 73);
 }
 .product-add-button:active{
     transform: translateY(2px);

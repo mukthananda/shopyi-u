@@ -2,33 +2,33 @@ const data ={
     productItem:[
         {
             id:"1",
-            name:"hello",
-            price:144,
-            image:"./pics/helloo.png"
+            name:"Angel",
+            price:900,
+            image:"./pics/oil.jpg"
         },
         {
             id:"2",
-            name:"bonjour",
-            price:143,
-            image:"./pics/helloo.png"
+            name:"girl with umbrilla",
+            price:850,
+            image:"./pics/rain.jpg"
         },
         {
             id:"3",
-            name:"ola",
-            price:142,
-            image:"./pics/ola.png"
+            name:"togther",
+            price:800,
+            image:"./pics/tog.jpg"
         },
         {
             id:"4",
-            name:"nameste",
-            price:141,
-            image:"./pics/nameste.png"
+            name:"Girl with violin",
+            price:880,
+            image:"./pics/blue.jpg"
         },
         {
             id:"5",
-            name:"vanakam",
-            price:140,
-            image:"./pics/vanakama.png"
+            name:"cyan dress girl",
+            price:950,
+            image:"./pics/green.jpg"
         },
     ]
 }

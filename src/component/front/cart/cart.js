@@ -47,14 +47,14 @@ const cart = ({
 
               </div>
               <div className='cart-items-price'>
-                {item.quantity}*${item.price}
+                {item.quantity}*Rs.{item.price}
               </div>
           </div>
         ))}
         <div className='cart-item-total-price-name'>
           total price
           <div className="div cart-item-total-price">
-            ${totalprice}
+            Rs.{totalprice}
           </div>
 
         </div>

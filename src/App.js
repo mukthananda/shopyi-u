@@ -19,9 +19,9 @@ const App = () => {
     }
   }
   const handleRemoveProduct=(product)=>{
-    const ProductExist=cartItem.find((item) => item.id !== product.id);
-    if(ProductExist.quantity===1){
-      setCartItem(cartItem.filter((item)=>item.id===product.id?
+    const ProductExist=cartItem.find((item) => item.id === product.id);
+    if(ProductExist.quantity === 1){
+      setCartItem(cartItem.filter((item)=>item.id !==product.id?
       {...ProductExist,quantity:ProductExist.quantity+1}:item)
       );
     }

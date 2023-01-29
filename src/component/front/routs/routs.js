@@ -5,7 +5,7 @@ import Cart from "../cart/cart";
 import Signup from "../signup/signup";
 
 
-const routs = ({ productItem,cartItem,handleAddProduct, handeRemoveProduct,handleCartClearence }) => {
+const routs = ({ productItem,cartItem,handleAddProduct, handleRemoveProduct,handleCartClearence }) => {
   return (
     <div>
       <Switch>
@@ -19,7 +19,7 @@ const routs = ({ productItem,cartItem,handleAddProduct, handeRemoveProduct,handl
           <Route path="/cart" exact>
           <Cart cartItem ={cartItem} 
           handleAddProduct={handleAddProduct}
-          handeRemoveProduct={handeRemoveProduct}
+          handleRemoveProduct={handleRemoveProduct}
           handleCartClearence={handleCartClearence}/>
         </Route>
       </Switch>
